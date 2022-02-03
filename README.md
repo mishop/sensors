@@ -26,9 +26,8 @@ You can load them from the terminal (or from the bin/modules.sh script).
     sudo modprobe w1-therm
 
 ### Install
-    go get github.com/yryz/ds18b20
-    go get github.com/mishop/sensors
-    go bulid sensors
+  
+    go install github.com/mishop/sensors
     sensors
 
 ### Output example
